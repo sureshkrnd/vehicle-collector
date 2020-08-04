@@ -42,7 +42,7 @@ jobs:
           command: 'cppcheck --enable=all --error-exitcode=1 .'
       - run:
           name: Cyclomatic Complexity Check
-          command: 'lizard --CCN 3'
+          command: 'lizard --CCN 5'
       - run:
           name: Unit test
           command: './testchecker'
