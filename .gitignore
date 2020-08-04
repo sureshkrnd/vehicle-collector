@@ -1,3 +1,5 @@
 testchecker
 *.gcda
 *.gcno
+*.gcov
+gtest*
