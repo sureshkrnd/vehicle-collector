@@ -8,7 +8,6 @@ TEST(COLLECT, any_telematics_enum_is_converted_into_one_inventory_entry) {
         Measure1,
         Measure2
     };
-    
     const int vehicleID = 100;
     const float measuredValue = 0.45;
     InventoryItem inv = 
